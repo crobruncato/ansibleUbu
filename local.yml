@@ -1,10 +1,10 @@
 - hosts: localhost
-  becom: true
+  become: true
   pre_tasks:
     - name: update repositories
       apt: update_cache=yes
       changed_when: False
 
 
-tasks:
+   tasks:
     - include: tasks/packages.yml

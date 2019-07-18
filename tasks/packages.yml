@@ -5,3 +5,8 @@
         - dnstools
         - pithos
         - chromium
+        - nmap
+        - zenmap
+        - ncat
+        - nping
+        - wireshark
